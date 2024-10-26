@@ -1,7 +1,6 @@
 package az.edu.turing;
 public class fxbabayev {
-
-    public static void main(String[] args) {
+    public static void main (String[] args) {
         byte bytValue = 19 ;
         short shotValue = 9877;
         int intValue = 88889900;
@@ -11,9 +10,6 @@ public class fxbabayev {
         boolean boolValue = false ;
         char charValue = 'F' ;
 
-
-
-
         System.out.print(bytValue);
         System.out.print(" "+shotValue);
         System.out.println(" " + intValue);
@@ -22,8 +18,20 @@ public class fxbabayev {
         System.out.printf("double  %s" , doubleValue);
         System.out.print("   kafeye gedek Vusal ?" + boolValue);
         System.out.print(" " + charValue);
+        System.out.print(" " + shotValue + intValue);
 
-
-
+        int number1=15;
+        int number2=7;
+        int sum = number2 + number1;
+        System.out.print(" " + sum);
+        int cixmaq =number1 - number2;
+        System.out.print(" " + cixmaq);
+        int c = number1 / number2 ;
+        System.out.print(" " + c);
+        int d = number1 % number2;
+        System.out.print(" " + d);
+        int f = number1 * number2 ;
+        System.out.print(" " + f);
+        // system.out.print(number1 // number2)
     }
 }
