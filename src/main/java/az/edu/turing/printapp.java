@@ -1,5 +1,5 @@
 package az.edu.turing;
-public class fxbabayev {
+public class printapp {
     public static void main (String[] args) {
         byte bytValue = 19 ;
         short shotValue = 9877;
