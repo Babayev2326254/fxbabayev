@@ -16,7 +16,7 @@ public class printapp {
         System.out.print(longValue);
         System.out.printf("float  %s" , floatValue);
         System.out.printf("double  %s" , doubleValue);
-        System.out.print("   kafeye gedek Vusal ?" + boolValue);
+        System.out.print("  " + boolValue);
         System.out.print(" " + charValue);
         System.out.print(" " + shotValue + intValue);
 
