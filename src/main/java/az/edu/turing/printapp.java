@@ -1,4 +1,7 @@
 package az.edu.turing;
+
+import java.util.Scanner;
+
 public class printapp {
     public static void main (String[] args) {
         byte bytValue = 19 ;
@@ -33,5 +36,12 @@ public class printapp {
         int f = number1 * number2 ;
         System.out.print(" " + f);
         // system.out.print(number1 // number2)
+
+        Scanner scan = new Scanner(System.in);
+        boolean cut = true;
+        int number = scan.nextInt();
+        boolean asnwer =( scan.nextInt() % 2 == 0) ? true : false;
+        System.out.println("Number is :" + asnwer );
+
     }
 }
