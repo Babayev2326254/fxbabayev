@@ -43,5 +43,12 @@ public class printapp {
         boolean asnwer =( scan.nextInt() % 2 == 0) ? true : false;
         System.out.println("Number is :" + asnwer );
 
+//        int f=15;
+//        int g=12;
+
+
+
+
     }
 }
+
