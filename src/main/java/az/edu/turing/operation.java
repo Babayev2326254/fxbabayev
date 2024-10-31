@@ -1,4 +1,5 @@
 package az.edu.turing;
+
 import java.util.Scanner;
 
 
@@ -49,9 +50,9 @@ public class operation {
 
         Scanner scanner = new Scanner(System.in);
         int number = scanner.nextInt();
-        System.out.println(((number*6)/5) >90 ? true : false);
+        System.out.println(((number * 6) / 5) > 90 ? true : false);
         System.out.println(number == 15);
-        System.out.println(number+=7);
+        System.out.println(number += 7);
         System.out.println(number++);
         System.out.println(number);
 
