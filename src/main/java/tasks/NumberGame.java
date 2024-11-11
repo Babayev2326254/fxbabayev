@@ -11,11 +11,17 @@ public class NumberGame {
         Random random = new Random();
         int randomNumber = random.nextInt(100) + 1;
         int[] numbers = new int[100];
+        int count = 0;
 
         System.out.println("Let the game begin!");
+        for (int i = 0; i < numbers.length; i++) {
+
+        }
         while (true) {
             if (sc.hasNextInt()) {
                 int number = sc.nextInt();
+                numbers[count] = number;
+                count++;
                 if (number < randomNumber) {
                     System.out.println(number + " is too low!");
                 } else if (number > randomNumber) {
@@ -24,21 +30,16 @@ public class NumberGame {
                     System.out.println(number + " is a number!");
                     break;
                 }
-                for (int i = 0; i < numbers.length; i++) {
-                    if (number != randomNumber) {
-                        numbers[i] = number;
-                    } else {
-                        break;
-                    }
-                    break;
-                }
             } else {
                 System.out.println("Please enter a number");
                 sc.next();
             }
         }
         sc.close();
-        System.out.println(Arrays.toString(numbers));
+        for (int i = 0; i < count; i++) {
+            System.out.println("Secilen reqemler ");
+            System.out.println(numbers[i] + (i < count - 1 ? ", " : ""));
+        }
 
     }
 }
