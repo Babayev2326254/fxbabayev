@@ -13,10 +13,14 @@ public class Example005 {
         for (int i = 0; i < a; i++) {
             if(word.charAt(i) == keuwords[0].charAt(0) || word.charAt(i) == keuwords[1].charAt(0) || word.charAt(i) == keuwords[2].charAt(0)) {
                 word = word.replace(keuwords[i], "?");
-                continue;
             }
         }
         System.out.println(word);
+
+        String name1 = new String("Lale");
+        String name2 = name1;
+        System.out.println(name2);
+
 
     }
 }

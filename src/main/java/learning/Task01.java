@@ -10,7 +10,7 @@ public class Task01 {
 
         Scanner scanner = new Scanner(System.in);
         String word = scanner.nextLine();
-        char[] vowel = {'a', 'e', 'i', 'ə', 'ö', 'u', 'ü', 'ı', 'o'};
+        char[] vowel = {'a', 'e', 'i', 'ə', 'ö', 'u', 'ü', 'ı', 'o','A','E','I','O','U','İ','Ə','Ü','Ö'};
         char endcharacter = word.charAt(word.length() - 1);
         System.out.println("End character - " + word.charAt(word.length() - 1));
 
